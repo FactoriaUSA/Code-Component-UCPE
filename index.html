@@ -8,7 +8,7 @@
             margin: 16px;
         }
 
-        #code  {
+        #textcode12  {
             width: 1248px;
             min-height: 150px;
             border: 1px solid #f3f3f3;
@@ -46,17 +46,17 @@
   
 <body>
     <code>
-    <textarea name="codetext" type="text" id="code"></textarea>
+    <textarea name="codetext" type="text" id="textcode12"></textarea>
      </code>
      <br>
-    <button onclick="copyText()">Copy to Clipboard </button>
+    <button onclick="copyText()">Copy to Clipboard</button>
   
    
    <script>
          
         function copyText() {
             
-            var textos= document.getElementById('code').value;
+            var textos= document.getElementById('textcode12').value;
             /* Copy text from input into clipboard */
             navigator.clipboard.writeText
                 (textos);
