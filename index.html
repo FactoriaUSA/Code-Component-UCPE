@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
     
     <style>
         @import url('http://fonts.cdnfonts.com/css/gotham');
+        
         body {
             margin: 16px;
             box-sizing: border-box;
@@ -19,7 +20,7 @@
 
         #textcode12  {
             width: 1248px;
-            min-height: 100px;
+            min-height: 150px;
             border: 1px solid #f3f3f3;
             background-color: #f3f3f3;
             max-height: 1500px;
@@ -68,12 +69,11 @@
             var textos= document.getElementById('textcode12').value;
             /* Copy text from input into clipboard */
             navigator.clipboard.writeText
-                (textos);
+                (textos).innerHTML;
             
         }
     </script>
 </body>
   
 </html>
-
 
